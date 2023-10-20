@@ -1,0 +1,4 @@
+lectures/
+.git/
+temperature_prediction/.ipynb_checkpoints
+temperature_prediction/temperature.csv
