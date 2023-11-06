@@ -2,3 +2,5 @@ lectures/
 .git/
 temperature_prediction/.ipynb_checkpoints
 temperature_prediction/temperature.csv
+server_load_analyzer/.ipynb_checkpoints
+server_load_analyzer/__pycache__
