@@ -21,8 +21,7 @@ np.ndarray: Корреляционная матрица.
 # Реализация вычисления корреляционной матрицы
 		return correlation_matrix\
 
-	def test_hypotheses(self, feature1: str, feature2: str, test_criteria: str, alpha:
-float) -> str:
+	def test_hypotheses(self, feature1: str, feature2: str, test_criteria: str, alpha: float) -> str:
 """
 Проверка статистических гипотез.
 Параметры:
