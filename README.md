@@ -1,25 +1,37 @@
 ## Учебные проекты программы обучения "Курс по Data Science"
 
-### [temperature_prediction](https://github.com/denis-42ds/innostage_labs/tree/innostage/temperature_prediction)
-- Необходимо предсказать температуру на каждый день в течение следующих 730 дней.
-- Для выполнения требуется создать файл, в котором будет одна колонка Temperature, в которой содержатся 730 предсказаний.
-#### Статус проекта: завершён
-#### Использованные инструменты: 
-- python, pandas, numpy, matplotlib, seaborn, statsmodels, prophet, sarima
-#### Заключение:
-- обучены две модели: FBProphet, SARIMA
-- более высокие показатели метрик оказались у SARIMA
+### [Ссылка на теоретические материалы](https://cloud.mail.ru/public/2DWe/mwFSv4coG)
 
-### [server_load_analyzer](https://github.com/denis-42ds/innostage_labs/tree/innostage/server_load_analyzer)
-- Необходимо создать класс ServerLoadAnalyzer для анализа распределения нагрузки на сервере с учетом времени и оценки параметров распределения Пуассона.
-- Необходимо проверить работоспособность созданного класса
+### [email_preprocess](https://github.com/denis-42ds/innostage_labs/tree/innostage/email_preprocess)
+#### Задачи:
+- создание класса для предобработки данных, предназначенных для классификации электронных писем на "спам" и "не спам"
 #### Статус проекта: завершён
 #### Использованные инструменты:
-- python, datetime
+- python, pandas, sklearn
 #### Заключение:
-- создан класс ServerLoadAnalyzer с указанными параметрами
-- проведено тестирование созданного класса ServerLoadAnalyzer
-- полученное значение λ соответствует действительности
+- создан класс в отдельном .py файле
+- проверка показала, что с поставленными задачами написанный класс успешно справляется
+
+### [credit_data_analysis](https://github.com/denis-42ds/innostage_labs/tree/innostage/credit_data_analysis)
+#### Задачи:
+- создание класса для анализа кредитных данных с использованием методов машинного обучения
+#### Статус проекта: завершён
+#### Использованные инструменты:
+- python, pandas, sklearn
+#### Заключение:
+- создан класс в отдельном .py файле
+- проверка показала, что с поставленными задачами написанный класс успешно справляется
+
+### [NumpyArrayHandler_and_PurchaseAnalyzer](https://github.com/denis-42ds/innostage_labs/tree/innostage/NumpyArrayHandler_and_PurchaseAnalyzer)
+#### Задачи:
+- создание класса для анализа массивов
+- создание класса для первичного анализа данных о покупках
+#### Статус проекта: завершён
+#### Использованные инструменты:
+- python, pandas, numpy, matplotlib
+#### Заключение:
+- созданы два класса в отдельных py файлах
+- проверка показала, что с поставленными задачами написанные классы успешно справляются
 
 ### [credit_card_fraud_analysis](https://github.com/denis-42ds/innostage_labs/tree/innostage/credit_card_fraud_analysis)
 #### Задачи:
@@ -40,23 +52,23 @@
   + Интервальные оценки
 - произведена проверка работоспособности класса
 
-### [NumpyArrayHandler_and_PurchaseAnalyzer](https://github.com/denis-42ds/innostage_labs/tree/innostage/NumpyArrayHandler_and_PurchaseAnalyzer)
-#### Задачи:
-- создание класса для анализа массивов
-- создание класса для первичного анализа данных о покупках
+### [server_load_analyzer](https://github.com/denis-42ds/innostage_labs/tree/innostage/server_load_analyzer)
+- Необходимо создать класс ServerLoadAnalyzer для анализа распределения нагрузки на сервере с учетом времени и оценки параметров распределения Пуассона.
+- Необходимо проверить работоспособность созданного класса
 #### Статус проекта: завершён
 #### Использованные инструменты:
-- python, pandas, numpy, matplotlib
+- python, datetime
 #### Заключение:
-- созданы два класса в отдельных py файлах
-- проверка показала, что с поставленными задачами написанные классы успешно справляются
+- создан класс ServerLoadAnalyzer с указанными параметрами
+- проведено тестирование созданного класса ServerLoadAnalyzer
+- полученное значение λ соответствует действительности
 
-### [credit_data_analysis](https://github.com/denis-42ds/innostage_labs/tree/innostage/credit_data_analysis)
-#### Задачи:
-- создание класса для анализа кредитных данных с использованием методов машинного обучения
+### [temperature_prediction](https://github.com/denis-42ds/innostage_labs/tree/innostage/temperature_prediction)
+- Необходимо предсказать температуру на каждый день в течение следующих 730 дней.
+- Для выполнения требуется создать файл, в котором будет одна колонка Temperature, в которой содержатся 730 предсказаний.
 #### Статус проекта: завершён
-#### Использованные инструменты:
-- python, pandas, sklearn
+#### Использованные инструменты: 
+- python, pandas, numpy, matplotlib, seaborn, statsmodels, prophet, sarima
 #### Заключение:
-- создан класс в отдельном .py файле
-- проверка показала, что с поставленными задачами написанный класс успешно справляется
+- обучены две модели: FBProphet, SARIMA
+- более высокие показатели метрик оказались у SARIMA
